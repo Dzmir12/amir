@@ -1,0 +1,78 @@
+.contact {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 40%; 
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider .slideTrack {
+    display: flex;
+    animation: scroll 25s linear infinite;
+    width: 300%;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-160%); /* Adjust based on the number of slides */
+    }
+  }
+  
+  .slider .slide {
+    width: 40%;
+    flex-shrink: 0;
+  }
+
+  .slider:hover .slideTrack {
+    animation-play-state: paused;
+}  
+
+.slider::before {
+   
+    background: linear-gradient(to left,rgba(255,255,255,0),white);
+    left: 0;
+}
+
+.slider::after {
+   
+    background: linear-gradient(to right,rgba(255,255,255,0),white);
+    right: 0;
+} 
+
+.slider::before,.slider::after {
+    position: absolute;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    content: '';
+    z-index: 2;
+}
+
+.contactDescribe {
+    text-align: center;
+    color:#1565C0 ;
+}
+
+.orange {
+    color: orange;
+}
+.black {
+    color: black;
+}
+
+.blue {
+    color:#1565C0
+}

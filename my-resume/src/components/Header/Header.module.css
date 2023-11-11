@@ -1,0 +1,270 @@
+.header {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.headerContainer {
+  width: 90%;
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.5rem;
+}
+
+.headerContainerFixed {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.headerContainerFixed2 {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  flex-direction: column;
+}
+
+.headerIntroduce {
+  width: 45%;
+  margin-left: 1rem;
+}
+
+.headerIntroduceFixed {
+  width: 100%;
+}
+
+.headerImageContainer {
+  width: 53%;
+}
+
+.headerImageContainerFixed {
+  width: 100%;
+}
+
+.headerH2 {
+  font-size: 5rem;
+  margin-top: 8rem;
+}
+
+.headerH2Fixed {
+  font-size: 4rem;
+  margin-top: 6rem;
+}
+
+.headerH2Fixed2 {
+  font-size: 6rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.headerH2Fixed3 {
+  font-size: 4rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+
+
+.staticTxt {
+  font-size: 6rem;
+  color: black;
+}
+
+.staticTxtFixed {
+  font-size: 5rem;
+  color: black;
+}
+
+
+
+.staticTxtFixed2 {
+  font-size: 7rem;
+  color: black;
+}
+
+.staticTxtFixed3 {
+  font-size: 4rem;
+  color: black;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.wrapperFixed {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  justify-content: center;
+}
+
+.wrapperFixed2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  flex-direction: column;
+}
+
+.headerLi {
+  font-size: 6rem;
+  color: #9ebeff;
+  list-style: none;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+.headerLiFixed {
+  font-size: 5rem;
+  color: #9ebeff;
+  list-style: none;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+.headerLiFixed2 {
+  font-size: 7rem;
+  color: #9ebeff;
+  list-style: none;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+.headerLiFixed3 {
+  font-size: 4rem;
+  color: #9ebeff;
+  list-style: none;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.dynamicTxt {
+  margin-left: 1rem;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+
+
+
+.dynamicTxt .headerLi {
+  position: relative;
+}
+
+.dynamicTxt .headerLi ::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left: 3px solid #9ebeff;
+  animation: typing 3s steps(6) infinite;
+  background-color: white;
+}
+
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+.headerImageContainer {
+  display: flex;
+  justify-content: center;
+  /* background: #9ebeff;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px; */
+}
+
+.img1 {
+  width: 100%;
+  background: #9ebeff;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.img1Fixed {
+  width: 100%;
+  background: #9ebeff;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  margin-top: 7rem;
+}
+
+.image {
+  width: 100%;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  display: block;
+  transform: rotate(3deg);
+}
+
+.imageFixed {
+  width: 98%;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  display: block;
+  transform: rotate(3deg);
+}
+
+.image:hover {
+  width: 100%;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  transform: rotate(0);
+}
+.headerIntroduceContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.blue {
+  color: #9ebeff;
+}
+
+.headerFirstP {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+.headerButton {
+  margin-top: 3rem;
+}
+
+.headerButtonFixed {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+

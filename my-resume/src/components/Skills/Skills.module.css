@@ -1,0 +1,204 @@
+
+.skills {
+    background-color: #2d38b4;
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+}
+
+.skillsContainer {
+    width: 100%;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.skillsContainerFixed {
+    width: 100%;
+    display: flex;
+    margin-bottom: 4rem;
+    flex-direction: column;
+}
+
+.spline {
+    width: 50%;
+    height: 83vh;
+}
+
+.splineFixed {
+    width: 100%;
+    height: 83vh;
+}
+
+.splineFixed2 {
+    width: 100%;
+    height: 91vh;
+}
+
+.text {
+    width: 50%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+   
+}
+
+.textFixed {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+.textFixed2  {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.mySkillsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.mySkills {
+    width: 80%;
+    height: 35vh;
+    border: 3px solid #9ebeff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mySkillsFixed {
+    width: 90%;
+    height: 35vh;
+    border: 3px solid #9ebeff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mySkillsFixed2 {
+    width: 90%;
+    height: 35vh;
+    border: 3px solid #9ebeff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.mySkills2 {
+    width: 60%;
+    height: 25vh;
+    border: 3px solid #9ebeff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mySkills2Fixed {
+    width: 90%;
+    height: 25vh;
+    border: 3px solid #9ebeff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mySkills2Fixed2 {
+    width: 62%;
+    height: 25vh;
+    border: 3px solid #9ebeff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mySkills2Fixed3 {
+    width: 76%;
+    height: 25vh;
+    border: 3px solid #9ebeff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mySkillsimg {
+    position: absolute;
+    top: -17%;
+}
+
+.SkillsContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.SkillsContainerFixed {
+    width: 80%;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.SkillsContainerFixed2 {
+    width: 80%;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mySkillsH2 {
+    color: #9ebeff;
+}
+
+.mySkillsH2Fixed {
+    width: 20%;
+    text-align: center;
+    color: #9ebeff;
+}
+
+.mySkillsH2Fixed2 {
+    width: 52%;
+    text-align: center;
+    color: #9ebeff;
+}
+
+
+.skillsWarning {
+    text-align: center;
+    color:#1565C0 ;
+}

@@ -1,0 +1,17 @@
+.aboutMe {
+    background-color: #CFDFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMecontainer {
+    width: 86%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.blue {
+    color: #1565C0;
+}

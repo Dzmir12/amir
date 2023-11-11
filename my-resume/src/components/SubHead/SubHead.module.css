@@ -1,0 +1,12 @@
+.subHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.subHeadH2 {
+    color: #1565C0;
+}
